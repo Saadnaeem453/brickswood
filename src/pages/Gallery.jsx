@@ -157,7 +157,7 @@ export default function Gallery() {
                   alt={img.label}
                   className="w-full h-56 object-cover transition-transform duration-300 group-hover:scale-110"
                 />
-                <span className="absolute left-2 bottom-2 bg-black bg-opacity-60 text-white text-xs px-3 py-1 rounded-full">{img.label}</span>
+                <span className="absolute left-2 bottom-2 bg-white/90 text-black  text-xs px-3 py-1 rounded-full">{img.label}</span>
               </div>
             ))}
           </div>
