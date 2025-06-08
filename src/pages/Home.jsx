@@ -49,7 +49,7 @@ export default function Home() {
       <section className="w-full bg-gradient-to-r from-green-50 to-[#eff6ff] py-12 px-4 md:px-0">
         <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center gap-4">
           {/* Left */}
-          <div className="flex-1 text-start max-w-xl pl-8">
+          <div className="flex-1 text-start max-w-xl sm:pl-8">
             <h1 className="text-4xl md:text-4xl font-bold text-black leading-tight mb-2">
               Welcome to Brickswood Assisted Living
             </h1>
