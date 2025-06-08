@@ -8,8 +8,7 @@ export default function Contact() {
       {/* Contact Header */}
       <section className="w-full bg-gradient-to-r from-green-50 to-[#eff6ff] py-16 sm:py-24 px-6">
         <div className="max-w-3xl mx-auto text-center">
-          <h1 className="text-4xl md:text-5xl font-bold mb-4 flex items-center justify-center gap-3">
-            <span className="bg-primary/10 text-primary p-3 rounded-full text-3xl"><FaAddressBook /></span>
+          <h1 className="text-2xl sm:text-4xl md:text-5xl font-bold mb-4 flex items-center justify-center gap-3">
             Contact <span className="text-primary">Brickswood</span>
           </h1>
           <p className="text-lg text-gray-600 mb-6">
@@ -139,7 +138,7 @@ export default function Contact() {
       {/* Ready to Schedule Your Visit Section */}
       <section className="w-full bg-primary py-16 px-6 text-white text-center">
         <div className="max-w-2xl mx-auto">
-          <h2 className="text-3xl font-bold mb-2"><span className="bg-blue-700 px-2 rounded">Ready to Schedule Your Visit?</span></h2>
+          <h2 className="text-3xl font-bold mb-2"><span className=" px-2 rounded">Ready to Schedule Your Visit?</span></h2>
           <p className="mb-8 text-lg">Take the first step in finding the perfect home for your loved one</p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <button className="bg-white text-primary font-semibold px-6 py-3 rounded-lg shadow hover:bg-gray-100 transition" type="button">
