@@ -41,7 +41,7 @@ export default function Services() {
   return (
     <div className="w-full">
       {/* Our Comprehensive Care Services */}
-      <section className="w-full bg-gradient-to-r from-green-50 to-[#eff6ff] py-16 px-4">
+      <section className="w-full bg-gradient-to-r from-green-50 to-[#eff6ff] py-16 sm:py-24 px-4">
         <div className="max-w-3xl mx-auto text-center">
           <h1 className="text-4xl md:text-5xl font-bold mb-4">
             Our <span className="text-primary">Comprehensive Care</span> Services

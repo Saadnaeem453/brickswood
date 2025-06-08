@@ -103,7 +103,7 @@ export default function Activities() {
   return (
     <div className="w-full">
       {/* Main Heading Section */}
-      <section className="w-full bg-gradient-to-r from-primary-50 to-[#eff6ff] py-16 px-4">
+      <section className="w-full bg-gradient-to-r from-primary-50 to-[#eff6ff] py-16 sm:py-24 px-4">
         <div className="max-w-3xl mx-auto text-center">
           <h1 className="text-4xl md:text-5xl font-bold mb-4">Activities & Life Enrichment</h1>
           <p className="text-lg text-gray-600 mb-2">
