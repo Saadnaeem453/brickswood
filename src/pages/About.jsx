@@ -9,6 +9,7 @@ import avatar4 from '../assets/avatar-4.jpg';
 import avatar5 from '../assets/avatar-5.jpg';
 import avatar6 from '../assets/avatar-6.jpg';
 import boutiqueImg from '../assets/boutique-img.png';
+import Footer from '../components/Footer';
 
 const team = [
   { name: 'Emily Carter', role: 'Administrator', avatar: avatar4, quote: 'We believe in creating a true home for our residents, where every day is filled with care and connection.' },
@@ -202,35 +203,7 @@ export default function About() {
         </div>
       </section>
 
-      {/* Footer Section */}
-      <footer className="w-full text-start bg-[#131926] py-10 mt-0">
-        <div className="max-w-7xl mx-auto px-4 md:px-8 flex flex-col md:flex-row gap-12 md:gap-0 justify-between">
-          {/* Brickswood Info */}
-          <div className="flex-1 mb-8 md:mb-0 min-w-[200px]">
-            <div className="text-primary font-bold text-lg mb-1">Brickswood</div>
-            <div className="text-white text-sm mb-1">Assisted Living & RSA Services</div>
-            <div className="text-gray-400 text-sm">Kent County, Maryland</div>
-          </div>
-          {/* Quick Links */}
-          <div className="flex-1 mb-8 md:mb-0 min-w-[200px]">
-            <div className="text-white font-semibold mb-2">Quick Links</div>
-            <ul className="space-y-1">
-              <li><a href="/" className="text-white text-sm hover:underline">Home</a></li>
-              <li><a href="/about" className="text-white text-sm hover:underline">About Us</a></li>
-              <li><a href="/services" className="text-white text-sm hover:underline">Services</a></li>
-              <li><a href="/activities" className="text-white text-sm hover:underline">Activities</a></li>
-            </ul>
-          </div>
-          {/* Services */}
-          <div className="flex-1 min-w-[200px]">
-            <div className="text-white font-semibold mb-2">Services</div>
-            <ul className="space-y-1">
-              <li className="text-white text-sm">Assisted Living</li>
-              <li className="text-white text-sm">RSA Home Health</li>
-            </ul>
-          </div>
-        </div>
-      </footer>
+      <Footer />
     </div>
   );
 } 

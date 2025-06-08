@@ -3,6 +3,7 @@ import { FaBrain, FaHeart, FaPalette, FaBirthdayCake, FaTree, FaPaw, FaBus, FaPh
 import ourActivitiesImg from '../assets/activities/our-activities-program-img.png';
 import benefitsImg from '../assets/activities/benifits-img.png';
 import { Link } from 'react-router-dom';
+import Footer from '../components/Footer';
 
 const activitiesFeatures = [
   {
@@ -259,50 +260,7 @@ export default function Activities() {
         </div>
       </section>
 
-      {/* Footer */}
-      <footer className="w-full bg-gray-900 text-gray-100 pt-12 pb-6 px-4 md:px-8">
-        <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
-          <div className="text-left">
-            <div className="text-xl font-bold text-primary mb-2">Brickswood</div>
-            <div className="mb-1 font-medium">Assisted Living & RSA Services</div>
-            <div className="text-gray-400 text-sm">Kent County, Maryland</div>
-          </div>
-          <div className="text-left">
-            <div className="font-semibold text-white mb-2">Quick Links</div>
-            <ul className="space-y-1 text-gray-300 text-sm font-medium">
-              <li><Link to="/">Home</Link></li>
-              <li><Link to="/about">About Us</Link></li>
-              <li><Link to="/services">Services</Link></li>
-              <li><Link to="/activities">Activities</Link></li>
-            </ul>
-          </div>
-          <div className="text-left">
-            <div className="font-semibold mb-2">Services</div>
-            <ul className="space-y-1 font-medium text-gray-300 text-sm">
-              <li>Assisted Living</li>
-              <li>RSA Home Health</li>
-              <li><Link to="/gallery">Gallery</Link></li>
-              <li><Link to="/contact">Contact</Link></li>
-            </ul>
-          </div>
-          <div className="text-left">
-            <div className="font-semibold mb-2">Contact Info</div>
-            <ul className="space-y-1 font-medium text-gray-300 text-sm">
-              <li className="flex items-center gap-2"><FaPhone className="text-gray-100" /> (410) 555-0123</li>
-              <li className="flex items-center gap-2"><FaEnvelope className="text-gray-100" /> info@brickswood.com</li>
-              <li className="flex items-center gap-2"><FaMapMarkerAlt className="text-gray-100" /> Kent County, MD</li>
-            </ul>
-          </div>
-        </div>
-        <hr className="border-gray-800 mb-4" />
-        <div className="flex flex-col md:flex-row justify-between items-center text-sm text-gray-400 max-w-7xl mx-auto">
-          <div className="mb-2 md:mb-0">© 2025 Brickswood Assisted Living. All rights reserved.</div>
-          <div className="flex gap-4">
-            <a href="#" className="hover:underline">Privacy Policy</a>
-            <a href="#" className="hover:underline">Terms of Service</a>
-          </div>
-        </div>
-      </footer>
+      <Footer />
     </div>
   );
 } 

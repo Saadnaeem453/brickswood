@@ -1,5 +1,9 @@
 import React from 'react';
 import { FaHome, FaUserNurse, FaClock, FaPills, FaHandsWash, FaUtensils, FaBroom, FaUsers, FaCar, FaShieldAlt, FaStethoscope, FaSyringe, FaBath, FaDumbbell, FaHeartbeat, FaHouseUser, FaClipboardList, FaHeart, FaSyncAlt, FaCertificate } from 'react-icons/fa';
+import Footer from '../components/Footer';
+import twoLevelLicenseImg from '../assets/services/two-level-license-img.png';
+import rsaImg from '../assets/services/rsa-img.png';
+import licensedAndCertifiedImg from '../assets/services/licensed-and-certified-img.png';
 
 const assistedLivingServices = [
   { icon: <FaClock />, title: '24/7 Care & Supervision', desc: 'Round-the-clock professional staff ensuring safety and immediate assistance when needed' },
@@ -74,7 +78,7 @@ export default function Services() {
             </div>
           </div>
           <div className="flex-1 flex justify-center">
-            <img src="/src/assets/services/two-level-license-img.png" alt="Two Levels of Licensed Care" className="rounded-2xl w-full max-w-md shadow-lg object-cover" />
+            <img src={twoLevelLicenseImg} alt="Two Levels of Licensed Care" className="rounded-2xl w-full max-w-md shadow-lg object-cover" />
           </div>
         </div>
       </section>
@@ -118,7 +122,7 @@ export default function Services() {
               </ul>
             </div>
             <div className="flex-1 flex justify-center mt-10 md:mt-0">
-              <img src="/src/assets/services/rsa-img.png" alt="RSA Services" className="rounded-2xl w-full max-w-md shadow-lg object-cover" />
+              <img src={rsaImg} alt="RSA Services" className="rounded-2xl w-full max-w-md shadow-lg object-cover" />
             </div>
           </div>
         </div>
@@ -173,7 +177,7 @@ export default function Services() {
             </div>
             {/* Right: Image */}
             <div className="flex-1 flex justify-center">
-              <img src="/src/assets/services/licensed-and-certified-img.png" alt="Licensed & Certified Care" className="rounded-2xl w-full max-w-md object-cover" />
+              <img src={licensedAndCertifiedImg} alt="Licensed & Certified Care" className="rounded-2xl w-full max-w-md object-cover" />
             </div>
           </div>
         </div>
@@ -194,14 +198,7 @@ export default function Services() {
           </div>
         </div>
       </section>
-      {/* Footer Section */}
-      <footer className="w-full border-t-4 border-primary bg-[#111827] py-10 mt-0">
-        <div className="max-w-7xl mx-auto text-start px-4 md:px-8">
-          <div className="text-primary font-bold text-lg mb-1">Brickswood</div>
-          <div className="text-gray-300 font-medium text-sm mb-1">Assisted Living & RSA Services</div>
-          <div className="text-gray-400 text-sm">Kent County, Maryland</div>
-        </div>
-      </footer>
+      <Footer />
     </div>
   );
 } 

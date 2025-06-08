@@ -22,6 +22,7 @@ import staffImg1 from '../assets/gallery/WhatsApp Image 2025-06-07 at 9.58.40 PM
 import staffImg2 from '../assets/gallery/WhatsApp Image 2025-06-07 at 9.58.40 PM (3).jpeg';
 import staffImg3 from '../assets/gallery/WhatsApp Image 2025-06-07 at 9.58.40 PM (5).jpeg';
 import staffImg4 from '../assets/gallery/WhatsApp Image 2025-06-07 at 9.58.40 PM (6).jpeg';
+import Footer from '../components/Footer';
 
 const filters = [
   { label: 'All Photos', value: 'all' },
@@ -143,7 +144,7 @@ export default function Gallery() {
       </section>
 
       {/* Life & Activities */}
-      <section className="w-full py-20 px-6 lg:px-24">
+      <section className="w-full bg-white py-20 px-6 lg:px-24">
         <div className="max-w-7xl text-start mx-auto">
           <h2 className="text-2xl font-bold mb-1">Life & Activities</h2>
           <p className="text-gray-600 mb-6">See our residents enjoying engaging activities and social connections</p>
@@ -163,7 +164,7 @@ export default function Gallery() {
       </section>
 
       {/* Caring Staff & Professional Services */}
-      <section className="w-full bg-green-50 py-20 px-6 lg:px-24">
+      <section className="w-full bg-white py-20 px-6 lg:px-24">
         <div className="max-w-7xl text-start mx-auto">
           <h2 className="text-2xl font-bold mb-1">Caring Staff & Professional Services</h2>
           <p className="text-gray-600 mb-6">Meet our dedicated team providing compassionate care around the clock</p>
@@ -198,22 +199,7 @@ export default function Gallery() {
         </div>
       </section>
 
-      {/* Footer (Simple, as in image) */}
-      <footer className="w-full bg-gray-900 text-gray-100 pt-12 pb-12 px-6 lg:px-24">
-        <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8">
-          <div className="text-left">
-            <div className="text-xl font-bold text-primary mb-2">Brickswood</div>
-            <div className="mb-1 font-medium">Assisted Living & RSA Services</div>
-            <div className="text-gray-400 text-sm">Kent County, Maryland</div>
-          </div>
-          <div className="text-left">
-            <div className="font-semibold text-white mb-2">Quick Links</div>
-            <ul className="space-y-1 text-gray-300 text-sm font-medium">
-              <li><Link to="/">Home</Link></li>
-            </ul>
-          </div>
-        </div>
-      </footer>
+      <Footer />
     </div>
   );
 } 
